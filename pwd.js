@@ -1,5 +1,5 @@
 function PWD() {
-	return process.stdin.on('data', data => {
+	process.stdin.on('data', data => {
 		// this stores whatever we input
 		const cmd = data.toString().trim();
 
@@ -9,9 +9,8 @@ function PWD() {
 		if (cmd === 'pwd') {
 			process.stdout.write(process.cwd());
 		}
-
 		process.stdout.write('\nprompt > ');
 	});
 }
 
-module.exports = { PWD: PWD };
+module.exports = { PWD };

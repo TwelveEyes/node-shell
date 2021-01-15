@@ -11,10 +11,4 @@
 
 // generate data, output to terminal
 // pwd should generate filepath to current dir
-
-const { PWD } = require('./pwd');
-PWD();
-
-// what may be wrong:
-// process.stdin might not work across export!
-// how to get around this?
+require('./pwd');
