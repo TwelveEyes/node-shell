@@ -11,3 +11,9 @@
 
 const { PWD } = require('./pwd');
 PWD();
+
+const { LS } = require('./ls');
+LS();
+
+const { cat } = require('./cat');
+cat();
