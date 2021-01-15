@@ -1,0 +1,23 @@
+{
+  "name": "bashlike",
+  "version": "1.0.0",
+  "description": "a bashlike terminal in node",
+  "main": "bash.js",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwelveEyes/node-shell.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TwelveEyes/node-shell/issues"
+  },
+  "homepage": "https://github.com/TwelveEyes/node-shell#readme"
+}
