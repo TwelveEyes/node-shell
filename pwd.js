@@ -1,4 +1,5 @@
 function PWD() {
+	process.stdout.write('\nprompt > ');
 	return process.stdin.on('data', data => {
 		// this stores whatever we input
 		const cmd = data.toString().trim();
