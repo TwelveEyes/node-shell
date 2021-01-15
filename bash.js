@@ -11,4 +11,5 @@
 
 // generate data, output to terminal
 // pwd should generate filepath to current dir
-require('./pwd');
+const { PWD } = require('./pwd');
+PWD();

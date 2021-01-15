@@ -1,5 +1,5 @@
 function PWD() {
-	process.stdin.on('data', data => {
+	return process.stdin.on('data', data => {
 		// this stores whatever we input
 		const cmd = data.toString().trim();
 
@@ -13,4 +13,4 @@ function PWD() {
 	});
 }
 
-module.exports = { PWD };
+module.exports = { PWD: PWD };
